@@ -28,14 +28,14 @@ class hboVarMapperModule extends oxModule {
         $this->setModuleData(
                 array(
                     'id' => $sModuleId,
-                    'title' => 'HBO Col Mapper',
-                    'description' => 'HBO Col Mapper Module',
+                    'title' => 'HBO Val Mapper',
+                    'description' => 'HBO Val Mapper Module',
                 )
         );
 
         $this->load($sModuleId);
 
-        oxRegistry::set('hboColMapperModule', $this);
+        oxRegistry::set('hboValMapperModule', $this);
     }
 
     /**
